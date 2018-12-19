@@ -1,0 +1,15 @@
+﻿<Window x:Class="Project___Seat_Assignment.EditFilesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project___Seat_Assignment"
+        mc:Ignorable="d" Name="EditWindow"
+        Title="" Height="600" Width="500" Closing="EditWindow_Closing" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox Name="tbxEdit" HorizontalAlignment="Left" Height="500" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="460" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextChanged="tbxEdit_TextChanged"/>
+        <Button Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="390,525,0,0" VerticalAlignment="Top" Width="75" Click="btnCancel_Click"/>
+        <Button Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="300,525,0,0" VerticalAlignment="Top" Width="75" Click="btnSave_Click"/>
+
+    </Grid>
+</Window>
